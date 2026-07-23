@@ -1,7 +1,31 @@
 aid: abogenbio
-name: abogenbio
-description: abogenbio is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/abogenbio.png
+name: Abogen Biosciences
+description: >-
+  Abogen Biosciences (Suzhou Abogen Biosciences, 苏州艾博生物科技有限公司) is an
+  industry-leading clinical-stage biotech company founded in January 2019 and
+  headquartered in Suzhou, China, dedicated to developing transformative
+  medicines through messenger RNA (mRNA) innovation. The company has built
+  full-scale in-house capabilities spanning the entire mRNA drug-development
+  cycle — protein engineering, mRNA sequence design and synthesis, lipid
+  nanoparticle (LNP) delivery, formulation, and commercial-scale manufacturing —
+  underpinned by proprietary mRNA and nano-delivery technology platforms. Its
+  pipeline covers infectious-disease prevention and tumor immunology, including
+  an EUA-authorized product and multiple clinical-stage candidates. Abogen is a
+  portfolio company of Qiming Venture Partners. This profile was surfaced through
+  the API Evangelist VC-portfolio enrichment pipeline; the company publishes a
+  corporate website but no public developer or API surface.
 url: https://raw.githubusercontent.com/api-evangelist/abogenbio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,6 +38,13 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Biotechnology
+- mRNA
+- Pharmaceuticals
+- Vaccines
+- Life Sciences
+- Drug Development
+- Immunology
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +54,18 @@ maintainers:
 common:
 - type: Website
   url: https://abogenbio.com
+- type: Blog
+  url: https://abogenbio.com/company/
+- type: Support
+  url: https://abogenbio.com/contact/
+- type: TermsOfService
+  url: https://abogenbio.com/clause/
+- type: PrivacyPolicy
+  url: https://abogenbio.com/privacy/
+- type: DomainSecurity
+  url: security/abogenbio-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
